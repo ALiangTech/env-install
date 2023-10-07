@@ -12,3 +12,5 @@ echo "$pwd" | sudo -s rm -rf /usr/local/go.tar.gz
 echo "开始写入go/bin到zshrc"
 echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.zshrc
 echo "go---安装完成"
+source ~/.profile
+source ~/.zshrc
